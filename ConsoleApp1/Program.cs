@@ -7,8 +7,12 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.Clear();
+
             Console.WriteLine("GRADE CALCULATOR");
             GradeCalculator.Run();
+
+            Console.WriteLine("\nTICKET PRICE CALCULATOR");
+            TicketCalculator.Run();
 
             Console.WriteLine("\nPress Enter to exit...");
             Console.ReadLine();
