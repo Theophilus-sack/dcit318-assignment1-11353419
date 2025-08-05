@@ -14,6 +14,9 @@ namespace ConsoleApp1
             Console.WriteLine("\nTICKET PRICE CALCULATOR");
             TicketCalculator.Run();
 
+            Console.WriteLine("\nTRIANGLE TYPE IDENTIFIER");
+            TriangleIdentifier.Run();
+
             Console.WriteLine("\nPress Enter to exit...");
             Console.ReadLine();
         }
